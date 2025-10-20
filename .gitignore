@@ -1,2 +1,1 @@
-trainingSet.csv
-rawEml_features.csv
+*.env
