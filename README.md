@@ -86,8 +86,8 @@ Key updates include:
 - Apply suitable encoding methods from `sklearn.preprocessing` based on feature type (categorical, ordinal, text-derived, etc.).
 
 ### **Phase 3 — Modeling**
-- Train baseline models (e.g., `DecisionTreeClassifier`) on encoded data.
-- Evaluate with multiclass metrics (recall, precision, F1-score) under k-fold cross-validation on the validation subset.
+- Train baseline models (e.g., `XGBoost`) on encoded data.
+- Evaluate with multiclass metrics (recall, precision) under k-fold cross-validation on the validation subset.
 
 ### **Phase 4 — Evaluation and Reporting**
 - Compare system variants:
